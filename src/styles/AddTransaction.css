@@ -1,0 +1,118 @@
+.add-transaction-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(104, 106, 240, 0.541); /* Cadre transparent bleu */
+  border: 2px solid rgba(1, 22, 44, 0.6); /* Bordure bleue avec une transparence légère */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #050505;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #0c0606;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+input, select {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #ff3c00; /* Bordure bleue lorsqu'en focus */
+  outline: none;
+}
+
+button {
+  background-color: #da4003; /* Bleu pour les boutons */
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e95629; /* Bleu foncé au survol */
+}
+
+.new-category {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.new-category input {
+  flex: 1;
+}
+
+.add-category-button {
+  background-color: #3a021c;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.add-category-button:hover {
+  background-color: #df206f;
+}
+
+.reset-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.reset-section p {
+  font-size: 1rem;
+  color: #020202;
+}
+
+.reset-button {
+  background-color: #b90d01;
+  padding: 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}

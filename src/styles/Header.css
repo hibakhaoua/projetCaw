@@ -1,0 +1,9 @@
+.header {
+  background-color: #ca7b92; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 0; /* Réduit le padding pour minimiser la hauteur */
+  text-align: center;
+  font-size: 18px; /* Réduit la taille de la police */
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour l'effet esthétique */
+}

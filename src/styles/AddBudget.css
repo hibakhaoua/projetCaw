@@ -1,0 +1,100 @@
+/* Style global pour AddBudget */
+.add-budget {
+    padding: 1rem; /* Réduit l'espacement interne */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Réduit l'espace entre les sections */
+    max-width: 600px; /* Réduit la largeur maximale */
+    margin: 0 auto;
+    background-color: rgba(240, 153, 104, 0.541); 
+    border: 2px solid rgba(240, 55, 8, 0.6); /* Mauve clair transparent */
+    border-radius: 10px; /* Bordures arrondies */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre plus légère */
+  }
+  
+  /* Titres et textes */
+  h2, h3 {
+    color: #291002; /* Mauve plus foncé */
+    margin-bottom: 5px; /* Réduit l'espace sous les titres */
+  }
+  
+  p {
+    font-size: 0.9rem; /* Réduit la taille de la police */
+    color: #070707;
+    margin-bottom: 0.5rem; /* Réduit l'espace sous les paragraphes */
+  }
+  
+  /* Style des champs de formulaire */
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem; /* Réduit l'espace entre label et champ */
+    margin-bottom: 10px; /* Réduit l'espacement entre les champs */
+  }
+  
+  .form-field label {
+    font-size: 1rem; /* Réduit la taille de la police des labels */
+    color: #333;
+  }
+  
+  input, select {
+    padding: 0.6rem; /* Réduit le padding des champs */
+    font-size: 0.9rem; /* Réduit la taille de la police des champs */
+    border-radius: 4px; /* Réduit le rayon des coins */
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  
+  input:focus, select:focus {
+    border-color: #920b65; /* Bordure bleu lorsqu'en focus */
+    outline: none;
+  }
+  
+  /* Style des boutons */
+  button {
+    background-color: #9a1b45; /* Mauve foncé */
+    color: white;
+    padding: 0.6rem; /* Réduit le padding du bouton */
+    border: none;
+    border-radius: 4px; /* Réduit le rayon des coins du bouton */
+    font-size: 0.9rem; /* Réduit la taille de la police */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 5px; /* Réduit l'espacement entre les boutons */
+  }
+  
+  button:hover {
+    background-color: #248baa; /* Mauve plus foncé au survol */
+  }
+  
+  /* Style pour les boutons spécifiques */
+  .reset-button {
+    background-color: #e91e63; /* Rouge pour Reset */
+  }
+  
+  .reset-button:hover {
+    background-color: #c2185b; /* Rouge foncé au survol */
+  }
+  
+ 
+  
+  /* Section Reset Your Budget */
+  .reset-section {
+    text-align: center;
+    margin-top: 1.5rem; /* Réduit l'espacement avant la section Reset */
+  }
+  
+  .reset-section p {
+    font-size: 0.9rem; /* Réduit la taille de la police */
+    color: #020202;
+  }
+  
+  /* Espacement général entre les sections */
+  .add-budget .budget-container,
+  .add-budget .income-container,
+  .add-budget .reset-container {
+    margin-bottom: 20px; /* Réduit l'espacement entre les sections */
+  }
+  

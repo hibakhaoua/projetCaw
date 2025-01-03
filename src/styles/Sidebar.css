@@ -1,0 +1,39 @@
+.sidebar {
+  height: 120vh;
+  width: 250px;
+  background-color: #c792ab;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar h1 {
+  font-size: 1.5rem;
+  color: #740137;
+  text-align: center;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar a {
+  color: #2e011f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+  color: #7c104c;
+}
+
+.icon {
+  font-size: 1.5rem;
+}

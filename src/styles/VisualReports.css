@@ -1,0 +1,35 @@
+.visual-reports {
+  padding: 2rem;
+  background-color: rgba(218, 98, 114, 0.5); /* Rose foncé transparent */
+  border: 2px solid rgba(124, 4, 20, 0.8); /* Bordure légèrement plus opaque */
+  border-radius: 10px;
+  max-width: 600px; /* Limite la largeur pour un affichage propre */
+  margin: 0 auto; /* Centrer le cadre horizontalement */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère pour un effet de relief */
+}
+
+.spending-container {
+  text-align: left; /* Aligner à gauche pour les catégories de dépenses */
+  font-size: 1.2rem; /* Taille de police uniforme */
+  margin-bottom: 1rem; /* Espacement entre les éléments */
+}
+
+.budget-container {
+  text-align: left; /* Centrer le budget */
+  font-size: 1.2rem; /* Assurez-vous que la taille de la police est la même */
+  margin-bottom: 1rem; /* Espacement entre les éléments */
+}
+
+.visual-reports h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.visual-reports ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.visual-reports li {
+  margin: 0.5rem 0;
+}
